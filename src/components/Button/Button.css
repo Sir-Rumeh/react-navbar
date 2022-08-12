@@ -1,0 +1,20 @@
+button {
+	color: white;
+	padding: 8px 20px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	transition: all 0.3s ease-in-out;
+}
+
+.button::after {
+	background: var(--button-hover);
+	color: var(--primary);
+}
+
+.btn-primary {
+	background: var(--success);
+	/* background-color: red; */
+}
