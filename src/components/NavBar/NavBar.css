@@ -117,5 +117,6 @@
 
 	Button {
 		display: none;
+		text-align: center;
 	}
 }
