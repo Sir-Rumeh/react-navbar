@@ -5,7 +5,7 @@ function App() {
 	return (
 		<div className="App">
 			<NavBar />
-			{/* {console.log("importing NavBar component")} */}
+			{console.log("importing NavBar component")}
 		</div>
 	);
 }
