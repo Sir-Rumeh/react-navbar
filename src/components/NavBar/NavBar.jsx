@@ -17,7 +17,7 @@ const NavBar = () => {
 
 	return (
 		<nav className="navbar">
-			{/* <h1 className="brand-logo">Navbar Redness</h1> */}
+			<h1 className="brand-logo">Navbar Redness</h1>
 			<div onClick={onToggle} className="menu-icon">
 				{toggle ? <div>&#x78;</div> : <div>&#x2630;</div>}
 			</div>
@@ -30,7 +30,7 @@ const NavBar = () => {
 					</li>
 				))}
 			</ul>
-			<Button buttonStyle="primary">Sign Up</Button>
+			{/* <Button buttonStyle="primary">Sign Up</Button> */}
 		</nav>
 	);
 };
