@@ -22,13 +22,13 @@ const NavBar = () => {
 				{toggle ? <div>&#x78;</div> : <div>&#x2630;</div>}
 			</div>
 			<ul className={`nav-menu ${toggle ? "active" : ""}`}>
-				{navLinks.map((item) => ({
-					/* <li key={item.title}>
+				{navLinks.map((item) => (
+					<li key={item.title}>
 						<a className={item.cName} href={item.url}>
 							{item.title}
 						</a>
-					</li> */
-				}))}
+					</li>
+				))}
 			</ul>
 			<Button buttonStyle="primary">Sign Up</Button>
 		</nav>
