@@ -24,9 +24,9 @@ const NavBar = () => {
 			<ul className={`nav-menu ${toggle ? "active" : ""}`}>
 				{navLinks.map((item) => (
 					<li key={item.title}>
-						{/* <a className={item.cName} href={item.url}>
+						<a className={item.cName} href={item.url}>
 							{item.title}
-						</a> */}
+						</a>
 					</li>
 				))}
 			</ul>
