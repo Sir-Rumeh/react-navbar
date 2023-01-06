@@ -30,7 +30,7 @@ const NavBar = () => {
 					</li>
 				))}
 			</ul>
-			{/* <Button buttonStyle="primary">Sign Up</Button> */}
+			<Button buttonStyle="primary">Sign Up</Button>
 		</nav>
 	);
 };
