@@ -13,7 +13,7 @@ const NavBar = () => {
 		{ title: "Sign Up", cName: "nav-link-mobile", url: "#" },
 	];
 
-	// const onToggle = () => setToggle(!toggle);
+	const onToggle = () => setToggle(!toggle);
 
 	return (
 		<nav className="navbar">
