@@ -25,7 +25,7 @@ const NavBar = () => {
 				{navLinks.map((item) => (
 					<li key={item.title}>
 						<a className={item.cName} href={item.url}>
-							{item.title}
+							{/* {item.title} */}
 						</a>
 					</li>
 				))}
