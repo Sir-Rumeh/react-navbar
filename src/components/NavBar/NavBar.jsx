@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 import "./NavBar.css";
 
 const NavBar = () => {
-	const [toggle, setToggle] = useState(false);
+	// const [toggle, setToggle] = useState(false);
 
 	const navLinks = [
 		{ title: "Home", cName: "nav-link", url: "#" },
